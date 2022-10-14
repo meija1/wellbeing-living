@@ -3,7 +3,7 @@
 
 body {
     font-family: Mukta, sans-serif;
-    font-weight: 300;
+    font-weight: 700;
     color: rgb(35, 35, 35)
 }
 
@@ -15,16 +15,18 @@ h1, h2 {
     margin-left: 20px;
 }
 
- li {
-    display: block;
-    float: right;
-    padding: 20px;
-    margin-right: 20px;
+i {
+padding-right: 15px;
 }
 
-ul {
-    padding: 0;
-    margin-top: 1px;
+#list {
+    text-align: left;
+    overflow: hidden;
+}
+
+ li {
+    display: inline-block;
+    padding: 15px;
 }
 
 a {
@@ -40,5 +42,14 @@ a {
 
 #menu a:hover {
     color: rgb(54, 255, 124);
+}
+
+#button {
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
 }
 
