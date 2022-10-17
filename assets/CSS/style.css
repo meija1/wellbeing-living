@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Rubik:wght@800&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Mukta, sans-serif;
     font-weight: 700;
@@ -11,8 +15,10 @@ body {
 h1, h2 {
     color: black;
     font-family: Rubik, sans-serif;
+}
+
+#menu h1 {
     float: left;
-    text-align: center;
 }
 
 h1 i {
@@ -46,8 +52,11 @@ li {
 }
 
 #menu {
-    padding: 20px;
-    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 89%;
+    padding: 8px;
+    background-color: white;
 }
 
 #menu li a:hover {
@@ -57,32 +66,42 @@ li {
 #button {
     float: right;
     padding: 5px;
-    margin: 5px 50px 0 0;
     background-color: rgb(54, 255, 124);
     border-radius: 12px;
     border-style: solid;
+    overflow: hidden;
+}
+
+.column {
+    height: 170px;
+    padding: 0;
+    margin: 0;
 }
 
 #main {
     height: 500px;
-    overflow: hidden;
+    width: 100%;
 }
 
 #main-text {
-    font-size: 25px;
-    padding: 30px;
+    font-size: 35px;
     float: left;
-    width: 40%;
-    overflow: hidden;    
+    width: 50%;    
 }
 
 #main-text p {
     clear: both;
+    font-size: 30px;
 }
 
 #main img {
     padding: 30px;
     float: right;
     width: 40%;
-    overflow: hidden;
+}
+
+#fundamentals h2 {
+    text-align: center;
+    margin-top: 190px;
+    font-size: 30px;
 }
