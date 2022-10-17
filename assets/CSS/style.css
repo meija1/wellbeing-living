@@ -95,9 +95,15 @@ li {
 }
 
 #main img {
-    padding: 30px;
+    padding: 40px;
     float: right;
     width: 40%;
+    border-radius: 50%;
+    
+}
+
+#main-image:hover {
+    transform: scale(1.1);
 }
 
 #fundamentals h2 {
