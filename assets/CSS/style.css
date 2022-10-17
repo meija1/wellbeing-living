@@ -12,8 +12,6 @@ body {
     padding-right: 50px;
 }
 
-/* navigation menu */
-
 h1, h2 {
     color: black;
     font-family: Rubik, sans-serif;
@@ -28,9 +26,9 @@ padding-right: 15px;
 }
 
 #list {
-    text-align: left;
     overflow: hidden;
     padding-left: 100px;
+    width: fit-content;
 }
 
 li {
@@ -71,7 +69,6 @@ i {
     background-color: rgb(54, 255, 124);
     border-radius: 12px;
     border-style: solid;
-    overflow: hidden;
 }
 
 .column {
@@ -79,8 +76,6 @@ i {
     padding: 0;
     margin: 0;
 }
-
-/*-main section */
 
 #main {
     height: 500px;
@@ -109,8 +104,6 @@ i {
 #main-image:hover {
     transform: scale(1.1);
 }
-
-/* fundamentals section */
 
 #fundamentals {
     margin-top: 100px;
