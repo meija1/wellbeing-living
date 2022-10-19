@@ -26,7 +26,7 @@ h1 i {
 padding-right: 15px;
 }
 
-#list {
+.list {
     text-align: left;
     overflow: hidden;
     padding-left: 100px;
@@ -128,8 +128,37 @@ i {
     box-sizing: border-box;
 }
 
+#fundamentals div:hover {
+    opacity: 1.0;
+}
+
+#fund-nutrition {
+    background-image: url(../images/nutrition.jpg);
+    background-size: cover;
+    opacity: 0.4;
+}
+
+#fund-sleep {
+    background-image: url(../images/sleep.jpg);
+    background-size: cover;
+    opacity: 0.4;
+}
+
+#fund-exercise {
+    background-image: url(../images/exercise.jpg);
+    background-size: cover;
+    opacity: 0.4;
+}
+
+#fund-meditate {
+    background-image: url(../images/meditation.jpg);
+    background-size: cover;
+    opacity: 0.4;
+}
+
 #sleep {
     clear: both;
+    margin-top: 500px;
     height: 800px;
     width: 100%;
     background-image: url(../images/green.jpg);
@@ -137,6 +166,19 @@ i {
     background-repeat: no-repeat;
 }
 
+#sleep div {
+    background-image: url(../images/stars.jpg);
+    background-size: cover;
+    margin: auto;
+    height: 90%;
+    width: 50%;
+}
+
+#sleep div ol {
+    color: white;
+    font-size: larger;
+    text-align: center;
+}
 @media (max-width: 500px) {
     body {
         padding: 0;
