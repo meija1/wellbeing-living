@@ -86,14 +86,14 @@ i {
 }
 
 #main-text {
-    font-size: 35px;
+    font-size: 2vw;
     float: left;
     width: 50%;    
 }
 
 #main-text p {
     clear: both;
-    font-size: 30px;
+    font-size: 2vw;
 }
 
 #main img {
@@ -116,6 +116,11 @@ i {
     text-decoration: underline;
     text-align: center;
     font-size: 30px;
+    color: white;
+}
+
+#fundamentals h3 {
+    color: white;
 }
 
 #fundamentals div {
@@ -166,11 +171,18 @@ i {
     background-repeat: no-repeat;
 }
 
+#sleep h2 {
+    color: rgb(0, 0, 82);
+    text-align: center;
+    font-size: 8vw;
+}
+
 #sleep div {
     background-image: url(../images/stars.jpg);
     background-size: cover;
     margin: auto;
-    height: 90%;
+    margin-top: 5%;
+    height: 60%;
     width: 50%;
 }
 
@@ -179,22 +191,25 @@ i {
     font-size: larger;
     text-align: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 480px) {
     body {
         padding: 0;
     }
 
+    #menu {
+        padding: 0;
+    }
+
     .column {
-        height: 0px;
+        height: 150px;
     }
 
     #list {
-        float: left;
-        width: auto;
         line-height: 0;
     }
 
     #main-text {
+        clear: both;
         width: fit-content;
     }
 }
