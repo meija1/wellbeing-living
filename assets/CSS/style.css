@@ -49,7 +49,7 @@ i {
 }
 
 #active {
-    color: rgb(54, 255, 124);;
+    color: rgb(54, 255, 124);
 }
 
 #menu {
@@ -199,6 +199,26 @@ i {
     color: rgb(54, 255, 124);
     font-size: 4vw;
     padding: 7vw;
+}
+
+.table {
+    width: 100%;
+}
+
+th {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.type {
+    background-color:  rgb(54, 255, 124);
 }
 
 @media (max-width: 480px) {
