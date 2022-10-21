@@ -51,9 +51,8 @@ i {
 #menu {
     position: fixed;
     top: 0px;
-    width: 89%;
-    height: 60px;
-    padding: 2vw;
+    width: 92%;
+    height: 80px;
     background-color: white;
 }
 
@@ -224,6 +223,7 @@ td {
 }
 
 @media (max-width: 480px) {
+
     body {
         padding: 0;
     }
@@ -240,9 +240,8 @@ td {
         height: 150px;
     }
 
-    #main-text, p {
+    #main-text {
         width: fit-content;
-        font-size: larger;
     }
 
     #main img {
