@@ -22,20 +22,16 @@ h1, h2 {
     float: left;
 }
 
-h1 i {
-padding-right: 15px;
-}
-
 .list {
-    text-align: left;
     overflow: hidden;
-    padding-left: 8vw;
+    padding-left: 7vw;
 }
 
 li {
     display: inline-block;
     padding: 1vw;
     margin-right: 30px;
+    text-align: left;
 }
 
 a {
@@ -55,7 +51,8 @@ i {
 #menu {
     position: fixed;
     top: 0px;
-    width: 91%;
+    width: 89%;
+    height: 60px;
     padding: 2vw;
     background-color: white;
 }
@@ -223,6 +220,7 @@ td {
 
 #food-pyr img {
     width: 100%;
+    margin-bottom: 100px;
 }
 
 @media (max-width: 480px) {
@@ -235,6 +233,7 @@ td {
         line-height: 1;
         display: grid;
         width: fit-content;
+        height: fit-content;
     }
 
     .column {
