@@ -245,6 +245,7 @@ td {
     }
 
     #menu {
+        position: relative;
         padding: 0;
         line-height: 1;
         display: grid;
@@ -252,11 +253,17 @@ td {
         height: fit-content;
     }
 
+    #menu h1 {
+        padding: 0;
+        margin: 0;
+    }
+
     .column {
-        height: 150px;
+        height: 10px;
     }
 
     #main-text {
+        font-size: large;
         width: fit-content;
     }
 
@@ -267,7 +274,14 @@ td {
         transform: none;
     }
 
+    #fundamentals {
+        margin-top: auto;
+        display: block;
+        grid-row: 2;
+    }
+
     #fundamentals div {
         height: fit-content;
+        width: fit-content;
     }
 }
