@@ -96,6 +96,7 @@ i {
     float: right;
     width: 40%;
     border-radius: 50%;
+    filter: drop-shadow(10px 10px 10px rgba(54, 255, 124, 0.486));
     
 }
 
@@ -220,6 +221,21 @@ td {
 #food-pyr img {
     width: 100%;
     margin-bottom: 100px;
+}
+
+#medit-list {
+    background-image: url(../images/medit.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vw;
+}
+
+#medit-list li {
+    display: grid;
+    text-align: center;
+    margin-top: 1vw;
+    color: white;
+    font-size: 2vw;
 }
 
 @media (max-width: 480px) {
