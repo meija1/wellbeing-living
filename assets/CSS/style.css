@@ -227,7 +227,7 @@ td {
     background-image: url(../images/medit.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 40vw;
+    height: 50vw;
 }
 
 #medit-list li {
@@ -238,7 +238,7 @@ td {
     font-size: 2vw;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
 
     body {
         padding: 0;
@@ -283,5 +283,18 @@ td {
     #fundamentals div {
         height: fit-content;
         width: fit-content;
+    }
+
+    #sleep div {
+        width: 80%;
+        height: 70%;
+    }
+
+    th {
+        padding: 2px;
+    }
+
+    td {
+        padding: 2px;
     }
 }
