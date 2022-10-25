@@ -238,6 +238,16 @@ td {
     font-size: 2vw;
 }
 
+@media (max-width: 1200px) {
+    body {
+        padding: 10px;
+    }
+
+    #menu {
+        width: 98%;
+    }
+}
+
 @media (max-width: 500px) {
 
     body {
