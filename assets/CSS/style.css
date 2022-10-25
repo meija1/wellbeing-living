@@ -248,6 +248,43 @@ td {
     }
 }
 
+@media (max-width: 950px) {
+    body {
+        padding: 10px;
+    }
+
+    #menu {
+        position: relative;
+        padding: 0;
+        line-height: 1;
+        display: grid;
+        width: fit-content;
+        height: fit-content;
+    }
+    .column {
+        height: 50px;
+    }
+
+    #main-text {
+        font-size: large;
+        width: fit-content;
+    }
+
+    #main img {
+        padding: 0;
+        width: 100%;
+        transform: none;
+    }
+
+    th {
+        padding: 5px;
+    }
+
+    td {
+        padding: 5px;
+    }
+}
+
 @media (max-width: 500px) {
 
     body {
@@ -279,7 +316,6 @@ td {
 
     #main img {
         padding: 0;
-        float: none;
         width: 100%;
         transform: none;
     }
