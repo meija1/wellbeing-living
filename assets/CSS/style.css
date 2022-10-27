@@ -54,6 +54,7 @@ i {
     width: 92%;
     height: 80px;
     background-color: white;
+    z-index: 100;
 }
 
 #menu li a:hover {
@@ -97,7 +98,6 @@ i {
     width: 40%;
     border-radius: 50%;
     filter: drop-shadow(10px 10px 10px rgba(54, 255, 124, 0.486));
-    
 }
 
 #main-image:hover {
@@ -273,7 +273,16 @@ td {
     #main img {
         padding: 0;
         width: 100%;
-        transform: none;
+    }
+
+    #fundamentals div {
+        height: fit-content;
+        width: fit-content;
+    }
+
+    #sleep div {
+        width: 80%;
+        height: 70%;
     }
 
     th {
@@ -317,7 +326,6 @@ td {
     #main img {
         padding: 0;
         width: 100%;
-        transform: none;
     }
 
     #fundamentals {
