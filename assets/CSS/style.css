@@ -133,25 +133,25 @@ i {
 }
 
 #fund-nutrition {
-    background-image: url(../images/nutrition.jpg);
+    background-image: url(../images/home_nutrition.jpg);
     background-size: cover;
     opacity: 0.4;
 }
 
 #fund-sleep {
-    background-image: url(../images/sleep.jpg);
+    background-image: url(../images/home_sleep.jpg);
     background-size: cover;
     opacity: 0.4;
 }
 
 #fund-exercise {
-    background-image: url(../images/exercise.jpg);
+    background-image: url(../images/home_exercise.jpg);
     background-size: cover;
     opacity: 0.4;
 }
 
 #fund-meditate {
-    background-image: url(../images/meditation.jpg);
+    background-image: url(../images/home_meditation.jpg);
     background-size: cover;
     opacity: 0.4;
 }
@@ -161,7 +161,7 @@ i {
     margin-top: 500px;
     height: 800px;
     width: 100%;
-    background-image: url(../images/green.jpg);
+    background-image: url(../images/home_green_background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -173,7 +173,7 @@ i {
 }
 
 #sleep div {
-    background-image: url(../images/stars.jpg);
+    background-image: url(../images/home_stars.jpg);
     background-size: cover;
     margin: auto;
     margin-top: 4%;
@@ -224,7 +224,7 @@ td {
 }
 
 #medit-list {
-    background-image: url(../images/medit.jpg);
+    background-image: url(../images/meditate_image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 50vw;
