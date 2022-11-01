@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Rubik:wght@800&display=swap');
 
+    /*******General Layout*******/
+
 html {
     scroll-behavior: smooth;
 }
@@ -12,6 +14,7 @@ body {
     padding-right: 70px;
 }
 
+    /*******Navigation Bar*******/
 
 h1, h2 {
     color: black;
@@ -70,6 +73,8 @@ i {
     border-style: solid;
 }
 
+    /*******Landing Section*******/
+
 .column {
     height: 170px;
     padding: 0;
@@ -104,6 +109,8 @@ i {
     transform: scale(1.1);
 }
 
+    /*******Fundamentals Section*******/
+
 #fundamentals {
     margin-top: 100px;
 }
@@ -136,25 +143,31 @@ i {
     background-image: url(../images/home_nutrition.jpg);
     background-size: cover;
     opacity: 0.4;
+    text-shadow: 2px 2px black;
 }
 
 #fund-sleep {
     background-image: url(../images/home_sleep.jpg);
     background-size: cover;
     opacity: 0.4;
+    text-shadow: 2px 2px black;
 }
 
 #fund-exercise {
     background-image: url(../images/home_exercise.jpg);
     background-size: cover;
     opacity: 0.4;
+    text-shadow: 2px 2px black;
 }
 
 #fund-meditate {
     background-image: url(../images/home_meditation.jpg);
     background-size: cover;
     opacity: 0.4;
+    text-shadow: 2px 2px black;
 }
+
+    /*******Sleep Section*******/
 
 #sleep {
     clear: both;
@@ -187,6 +200,8 @@ i {
     text-align: center;
 }
 
+    /*******Footer*******/
+
 .footer {
     text-align: center;
     padding: 6vw;
@@ -197,6 +212,8 @@ i {
     font-size: 4vw;
     padding: 7vw;
 }
+
+    /*******Websites Tables*******/
 
 .table {
     width: 100%;
@@ -218,10 +235,14 @@ td {
     background-color:  rgb(54, 255, 124);
 }
 
+    /*******Nutrition img*******/
+
 #food-pyr img {
     width: 100%;
     margin-bottom: 100px;
 }
+
+    /*******Meditation Page*******/
 
 #medit-list {
     background-image: url(../images/meditate_image.jpg);
@@ -236,7 +257,10 @@ td {
     margin-top: 1vw;
     color: white;
     font-size: 2vw;
+    text-shadow: 2px 2px black;
 }
+
+    /*******Device Resolution Section*******/
 
 @media (max-width: 1200px) {
     body {
