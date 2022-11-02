@@ -2,6 +2,8 @@
 
 This website is for people who want to achieve healthier living and improve their overall fitness. There are simple exercises and tips for everyone to try no matter what your skill level or fitness is. The site gives tips on sleeping, exercising, nutrition and meditation all of which you can do from the comfort of your home. Wellbeing Living is great for anyone who wants to take their first step into improving their lifestyle.
 
+![responsive](https://user-images.githubusercontent.com/109754892/199529588-6bd225a9-22ff-4a2c-bb2c-c1cdd1fe7670.png)
+
 ## Features
 Wellbeing Living provides all major tips for improving healthy lifestyle which are sleep, nutrition, exercise and meditation. Website provides tables of exercises, tips for better sleep, healthier foods, main reason we lose or gain weight and tips for meditation. The website is easy to understand for newcomers and gives tips for people who might already have experience. This website is best if you combine all these principles for better overall wellbeing.
 ## Existing Features
@@ -49,9 +51,13 @@ The menu disappeared when scrolled down to the first image and fundamentals sect
 ## Validator Testing
 * HTML
     * No errors were returned when passing through the official W3C validator
+    
+    https://validator.w3.org/nu/?doc=https%3A%2F%2Fmeija1.github.io%2Fwellbeing-living%2F
 * CSS
     * No errors were found when passing through the official (Jigsaw) validator
-*Accessability
+    
+    https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmeija1.github.io%2Fwellbeing-living%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+* Accessability
      * I confirm that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
     ![performence](https://user-images.githubusercontent.com/109754892/198673639-0121ff26-2bd3-4a01-a318-5e03dab55066.png)
 ## Unfixed Bugs
