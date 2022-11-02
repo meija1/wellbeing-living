@@ -294,6 +294,10 @@ td {
         width: fit-content;
     }
 
+    #main-text p {
+        font-size: medium;
+    }
+
     #main img {
         padding: 0;
         width: 100%;
@@ -305,8 +309,12 @@ td {
     }
 
     #sleep div {
-        width: 80%;
-        height: 70%;
+        width: 65%;
+        height: 60%;
+    }
+
+    #sleep div ol {
+        font-size: medium;
     }
 
     th {
@@ -369,7 +377,7 @@ td {
 
     #sleep div {
         width: 80%;
-        height: 90%;
+        height: 70%;
     }
 
     th {
